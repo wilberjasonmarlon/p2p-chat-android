@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OffLineChat</string>
+    <string name="nick">Nick</string>
+    <string name="ok">OK</string>
+</resources>
