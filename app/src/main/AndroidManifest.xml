@@ -2,21 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cu.wilb3r.offlinechat">
 
-    <uses-permission
-        android:name="android.permission.ACCESS_FINE_LOCATION"
-        android:required="true" />
-    <uses-permission
-        android:name="android.permission.ACCESS_WIFI_STATE"
-        android:required="true" />
-    <uses-permission
-        android:name="android.permission.CHANGE_WIFI_STATE"
-        android:required="true" />
-    <uses-permission
-        android:name="android.permission.INTERNET"
-        android:required="true" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OffLineChat">
-        <activity android:name=".P2PManagerActivity"></activity>
+        <activity android:name=".ChatActivity"></activity>
+        <activity android:name=".P2PManagerActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,5 +19,20 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission
+        android:name="android.permission.CHANGE_WIFI_STATE"
+        android:required="true" />
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="true" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:required="true" />
+
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        android:required="true" />
 
 </manifest>

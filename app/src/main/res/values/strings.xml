@@ -2,4 +2,15 @@
     <string name="app_name">OffLineChat</string>
     <string name="nick">Nick</string>
     <string name="ok">OK</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+    <string name="more">More</string>
+    <string name="device">Device</string>
+    <string name="page_title">Page title</string>
+    <string name="content_description_favorite">content_description_favorite</string>
+    <string name="content_description_search">content_description_search</string>
+    <string name="content_description_more">content_description_more</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
