@@ -1,1 +1,2 @@
-# p2p-chat-android work in progress
+# p2p-chat-android 
+This work is in progress
